@@ -1,0 +1,580 @@
+body {
+    background: rgba(175, 172, 172, 0.26);
+    /* border-color:red; */
+}
+/* .container { */
+    /* grid-template-columns: 2fr 1fr 1fr 1fr; */
+    /* border-color; */
+/* } */
+
+.wrapper{
+    width:100%;
+    /* ßheight:60px; */
+    /* grid-template-columns:2fr 1fr 1fr 1fr; */
+    /* float:left; */
+    /* Display:inline-block; */
+    /* flex-direction:row; */
+    /* display: table-column; */
+    height:80px;
+}
+
+.header{
+    width:150px;
+    float: left;
+    background-color: #4aaaa5;
+    height:80px;
+
+}
+
+.headerLogo{
+    color:whitesmoke;
+    /* background-color:#4aaaa5; */
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    /* Content: 100px 80px 100px 80px; */
+    /* Border: 20px 15px 20px 15px; */
+    /* width: 150px; */
+    text-align: center;
+    /* height:80px; */
+    animation-name: nameColoring;
+    animation-duration: 8s;
+}
+
+.navigation {
+    width:270px;
+    text-align:center;
+    Display:inline;
+    /* Float: right; */
+    /* flex-direction:row; */
+    /* display:table-row; */
+    background-color:#ffffff;
+    float: left;
+    padding: 0px 0px 0px 500px;
+    height: 80px;
+}
+
+.section2{
+    clear:both;
+    height:500px;
+    width: 960px;
+}
+
+.aboutMeHeader {
+    width:625px;
+    background-color: #ffffff;
+    height:50px;
+    border: solid #dddddd;
+    margin-top:15px;
+    padding-bottom: 15px;
+    border-bottom: 0px;
+    padding-left:15px;
+}
+.aboutMeBody {
+    /* align-content: right; */
+    background: #ffffff;
+    width:640px;
+    height:350px;
+    border: solid #dddddd 3px;
+    /* border: 15px 30px 30px 30px; */
+    /* padding:20px 30px 30px 30px; */
+    float:left;
+    animation-name: nameColoring2;
+    animation-duration: 8s;
+}
+.closing{
+    background-color:#666666;
+    height:50px;
+    clear: both;
+    width:960px;
+   border-top:solid #4aaaa5 6px;
+}
+.footer{
+    text-align:center;
+    color:whitesmoke;
+    font-size:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-color: #4aaaa5;
+    border-top: 10px;
+    /* width: 960px; */
+}
+.footerLogo {
+    margin-top:19px;
+    color:#b4b4b4;
+}
+
+.navigationContainer {
+    margin-top:25px
+}
+
+.navigationLink {
+    font-family: Arial, Helvetica, sans-serif;
+     color: #a8a8a8;
+    /* column-gap: 15px; */
+   /* display: table-row;  */
+   display: inline;
+   margin-right:10px;
+   /* margin-top:25px; */
+   text-decoration: none;  
+}
+
+.firstpct {
+    height: 300px;
+    width: 250px;
+    float:left;
+    margin-right:15px
+}
+.pct2 {
+    height:60px;
+    width:60px;
+}
+
+/* .aboutme {
+    background-color:#ffffff;
+    border-color:#dddddd; 
+    display: grid;
+    grid-template-columns: 30% 50%;
+    grid-column-gap: 10px;
+    border-width:80px;
+    border-color: red;
+
+} */
+/* .portpics { */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    
+/* } */
+
+.portfolio {
+    height:50px;
+    width:120px;
+}
+.portfolioHeader {
+    width:625px;
+    background-color: #ffffff;
+    height:50px;
+    border: solid #dddddd;
+    margin-top:15px;
+    padding-bottom: 15px;
+    border-bottom: 0px;
+    padding-left:15px;
+}
+
+.portfolioBody {
+    /* grid-template-columns: 1fr 1fr; */
+    /* flex-direction: row; */
+    /* float: left; */
+    width:960px;
+    /* height:700px; */
+    /* float: left; */
+}
+
+.setOfPics {
+    width:520px;
+    height:450px;
+    float:left;
+    background-color: #ffffff;
+    padding-left:120px;
+    padding-top:50px;
+    margin-bottom:30px;
+    border: solid #dddddd 3px;
+    animation-name: nameColoring2;
+    animation-duration: 8s;
+}
+
+.portfolioPicture{
+    /* height:120px; */
+    width:650px;
+}
+
+.pct3 {
+    height:120px;
+    width:140px;
+    float: left;
+    margin-right: 100px;
+    margin-bottom:25px;
+}
+
+/* .imgText {
+    z-index: 1;
+    width:140px;
+    height:15px; */
+    /* background-color: #4aaaa5;
+    color:#dddddd;
+    margin-right:100px;
+    margin-bottom:25px; */
+
+.socialMeds {
+   float: left;
+   /* position: absolute; */
+   /* bottom: 800px; */
+   /* right:80px; */
+   background: #ffffff;
+   height: 200px;
+   width: 270px;
+   text-align: center;
+   margin-left: 15px;
+   border: solid #dddddd 3px;
+   /* padding: 0px 0px 0px 20px; */
+}
+
+.socialMeds2 {
+    float: left;
+    position: absolute;
+    /* bottom: 800px; */
+    /* right:80px; */
+    background: #ffffff;
+    height: 200px;
+    width: 270px;
+    text-align: center;
+    margin-left: 15px;
+    border: solid #dddddd 3px;
+    /* padding: 0px 0px 0px 20px; */
+    display: inline;
+}
+
+.socialMeds3 {
+    float: left;
+    position: relative;
+    bottom: 502px;
+    right:-628px;
+    background: #ffffff;
+    height: 200px;
+    width: 270px;
+    text-align: center;
+    margin-left: 15px;
+    border: solid #dddddd 3px;
+    /* padding: 0px 0px 0px 20px; */
+ }
+
+/*#message {
+    color:red;
+}
+*/
+.socialImage{
+    /* float:left; */
+    display: inline;
+}
+
+h2{
+    color:#4aaaa5;
+    font-size:28px;
+}
+p{
+    color:#777777;
+    /* vertical-align:right; */
+}
+
+h3 {
+    background-color: #4aaaa5;
+    color:#dddddd;
+    /* margin-right:100px; */
+    /* margin-bottom:25px; */
+    /* height:15px */
+}
+
+a {
+    text-decoration:none;
+}
+
+#try {             /*no clue why these id's won't overlay all photos */
+    z-index: 1;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#try2 {
+    z-index: 1;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#try3 {
+    z-index: 1;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#try4 {
+    z-index: 1;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#try5 {
+    z-index: 1;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#try6 {
+    z-index: 1;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
+.section3 {
+    /* float:left; */
+}
+
+.contactBody {
+    margin-top: 20px;
+    width:620px;
+    height:530px;
+    background-color: #ffffff;
+    /* width:640px; */
+    /* height:350px; */
+    border: solid #dddddd 3px;
+    /* border: 15px 30px 30px 30px; */
+    /* padding:20px 30px 30px 30px; */
+    float:left;
+    display: inline;
+    /* margin-right: 20px; */
+    padding-left:20px;
+    margin-bottom:30px;
+    animation-name: nameColoring2;
+    animation-duration: 8s;
+}
+.nameLabel{
+/* padding-bottom: 20px; */
+}
+.nameInput {
+padding-bottom: 20px
+}
+.emailLabel {
+padding-bottom:20px;
+}
+.emailInput {
+
+}
+.messageLabel {
+padding-bottom: 10px;
+}
+.messageInput {
+
+}
+.messageMe{
+    width: 590px;
+    height:250px;
+
+}
+.txtInput {
+    width:590px;
+}
+
+.submitBtn {
+
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 50px;
+    width: 90px;
+    font-weight: 900;
+    font-size: large;
+    border:solid;
+}
+
+.section4{
+    width:960px;
+    float: left;
+    display: inline;
+}
+
+
+
+
+
+  
+
+
+  @media screen and (max-width: 980px) {
+    body {
+ 
+    }
+    
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+      position: static;
+      /* background-color: green; */
+    }
+    .aboutMeBody {
+        padding-bottom:300px;
+    }
+  }
+  
+  /* Width at 168px and below */
+  @media screen and (max-width: 768px) {
+    body {
+    }
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+      position: static;
+      /* background-color:green; */
+    }
+  
+    .navigation {
+        width:270px;
+        text-align:center;
+        Display:inline;
+        /* Float: right; */
+        /* flex-direction:row; */
+        /* display:table-row; */
+        background-color:#ffffff;
+        float: left;
+        padding: 0px 0px 0px 207px;
+        height: 80px;
+    }
+    
+    .aboutMeBody {
+        background: #ffffff;
+        width:640px;
+        height:350px;
+        border: solid #dddddd 3px;
+        padding-bottom: 0px;
+    }
+    .contactBody {
+        background: #ffffff;
+        width:640px;
+        height:530px;
+        border: solid #dddddd 3px;
+        padding-bottom: 0px;
+        margin-bottom:210px;
+    }
+    .section4 {
+        float: none;
+        height: 800px;
+        width:610px;
+    }
+
+    .socialMeds {
+        /* float: left; */
+        /* position: absolute; */
+        /* bottom: 800px; */
+        /* right:80px; */
+        background: #ffffff;
+        height: 200px;
+        width: 640PX;
+        text-align: left;
+        margin-left: 15px;
+        border: solid #dddddd 3px;
+        /* padding: 0px 0px 0px 20px; */
+    }
+    .socialMeds3 {
+        /* float: left; */
+        position: static;
+        /* bottom: 800px; */
+        /* right:80px; */
+        background: #ffffff;
+        height: 200px;
+        width: 640PX;
+        text-align: left;
+        margin-left: 15px;
+        border: solid #dddddd 3px;
+        /* padding: 0px 0px 0px 20px; */
+    }
+
+    .socialMeds2 {
+        /* float: left; */
+        position: static;
+        /* bottom: 800px; */
+        /* right:80px; */
+        background: #ffffff;
+        height: 200px;
+        width: 640PX;
+        text-align: left;
+        margin-left: 15px;
+        border: solid #dddddd 3px;
+        /* padding: 0px 0px 0px 20px; */
+    }
+  }
+
+
+@media screen and (max-width: 640px) {
+    body {
+    }
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+      position: static;
+      /* background-color:green; */
+    }
+
+    .navigation {
+        width:410px;
+        text-align:left;
+        Display:inline;
+        /* Float: right; */
+        /* flex-direction:row; */
+        /* display:table-row; */
+        background-color:#ffffff;
+        /* float: left; */
+        padding: 0px 0px 0px 200px;
+        height: 80px;
+    }
+    
+    .header {
+        width: 610px;
+    }
+    .firstpct {
+        height: 300px;
+        width: 550px;
+        /* float:left; */
+        margin-right:15px;
+        /* img src="https://goo.gl/images/sKJxh3"; */
+        border-radius: 50%;
+        }
+    .aboutMeBody {
+        background: #ffffff;
+        width:600px;
+        height:500px;
+        border: solid #dddddd 3px;
+        padding-bottom: 0px;
+    }
+    p {
+        text-align: left;
+        float: left;
+    }
+    .socialMeds2 {
+        /* float: left; */
+        position: static;
+        /* bottom: 800px; */
+        /* right:80px; */
+        background: #ffffff;
+        height: 200px;
+        width: 640PX;
+        text-align: left;
+        margin-left: 15px;
+        border: solid #dddddd 3px;
+        /* padding: 0px 0px 0px 20px; */
+    }
+    .portfolio {
+        margin-top:100px;
+    }
+}
+
+@keyframes nameColoring {
+    from {color:whitesmoke;}
+    to {color:darkred;}
+}
+
+@keyframes nameColoring2 {
+    from {background-color:whitesmoke;}
+    to {background-color:darkred;}
+}
